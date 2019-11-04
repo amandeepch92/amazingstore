@@ -28,7 +28,7 @@ async function runSetup() {
     fs.writeFile(path.join(ROOT, '/config/site.config.js'), data, 'utf8', (err) => { });
   });
 
-
+}
   if (!skip_setup) {
     runSetup();
   }
